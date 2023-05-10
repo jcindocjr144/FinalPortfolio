@@ -1,0 +1,54 @@
+body
+{
+	background-image: url("../IMG/bg.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+p
+{
+	text-align: left;
+	color:WHITE;
+	text-shadow:1px 2px black;
+	margin-left:4%;
+
+}
+.text
+{
+	margin-left:4%;
+	text-align: center;
+}
+.address
+{
+	margin-left:4%;
+	width:50%;
+	text-align:justify-all;
+}
+.box
+{
+	text-align:left;
+	width:50%;
+	height:100px;
+	margin-left:25%;
+}
+.survey
+{
+	height:30vh;
+	background:BLACK;
+	align-content: center;
+	margin: auto;
+	margin-top:2%;
+  	width: 60%;
+  	height:100%;
+  	border: 3px solid green;
+  	padding: 10px;
+}
+button
+{
+	margin-left:45%;
+}
+button a
+{
+	text-decoration: none;
+}

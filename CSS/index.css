@@ -1,0 +1,120 @@
+body
+{
+  background-image: url("../IMG/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+html {
+  scroll-behavior: initial;
+}
+{
+	font-family: monospace;
+}
+.home
+{
+	color: BLACK;
+	text-shadow: 0 0 1px YELLOW, 0 0 4px YELLOW, 0 0 4px YELLOW;
+}
+.home:hover
+{
+	color: RED;
+	text-shadow: 0 0 5px BLUE, 0 0 20px BLUE, 0 0 20px BLUE;
+}
+.about
+{
+	color:BLACK;
+	background:RED;
+	text-shadow: 0 0 1px YELLOW, 0 0 4px YELLOW, 0 0 4px YELLOW;
+}
+.about:hover
+{
+	color: RED;
+	background:ORANGE;
+	text-shadow: 0 0 5px BLUE, 0 0 20px BLUE, 0 0 20px BLUE;
+}
+.contact
+{
+	text-shadow: 0 0 1px YELLOW, 0 0 4px YELLOW, 0 0 4px YELLOW;
+}
+.contact:hover
+{
+	color: RED;
+	text-shadow: 0 0 5px BLUE, 0 0 20px BLUE, 0 0 20px BLUE;
+}
+.row1
+{
+background-repeat: no-repeat;
+background-size:100%;
+background-position:center;
+width: 100%;
+height: 90%;
+}
+.row2
+{
+background:black;
+background-repeat: no-repeat;
+background-size:100%;
+background-position:center;
+width: 100%;
+height: 83%;
+}
+.row3
+{
+background-image: url("../IMG/bg2.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 100vw;
+height: 100vh;
+}
+.container-fluid1
+{
+background-image: url("../IMG/bg3.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 100vw;
+height: auto;
+}
+::placeholder {
+   text-align: center; 
+   color:RED;
+   font-family:Lucida Handwriting,cursive;
+}
+input[type=email]
+{
+	font-family:monospace;
+ 
+}
+input[type=password]
+{
+	font-family:monospace;
+ 
+}
+
+.pushable {
+    background: hsl(340deg 100% 32%);
+    border-radius: 10px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+  }
+  .front {
+    display: block;
+    padding: 1px 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+    background: hsl(345deg 100% 47%);
+    color: white;
+    transform: translateY(-6px);
+  }
+
+ .pushable:active .front {
+    transform: translateY(-2px);
+  }
+.t
+{
+  font-family: monospace;
+}
