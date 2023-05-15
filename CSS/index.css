@@ -24,13 +24,13 @@ html {
 .about
 {
 	color:BLACK;
-	background:RED;
+	background:BLUE;
 	text-shadow: 0 0 1px YELLOW, 0 0 4px YELLOW, 0 0 4px YELLOW;
 }
 .about:hover
 {
 	color: RED;
-	background:ORANGE;
+	background:BLUE;
 	text-shadow: 0 0 5px BLUE, 0 0 20px BLUE, 0 0 20px BLUE;
 }
 .contact
