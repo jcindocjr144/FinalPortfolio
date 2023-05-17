@@ -123,7 +123,7 @@ input[type=password]
   color:black;
   text-shadow:0 0 2px GRAY, 0 0 4px GRAY,0 0 4px GRAY;
   animation: animate 2s infinite;
-  font-size:30px;
+  font-size:20px;
   font-family: monospace;
 }
 @keyframes animate{
@@ -139,6 +139,6 @@ input[type=password]
 {
   color:black;
   text-shadow:0 0 2px GRAY, 0 0 4px GRAY,0 0 4px GRAY;
-  font-size:15px;
+  font-size:12px;
   font-family: monospace;
 }
