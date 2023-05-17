@@ -1,6 +1,6 @@
 body
 {
-  background:black;
+  background-image: url("../IMG/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -30,7 +30,7 @@ html {
 .about:hover
 {
 	color: RED;
-	background:RED;
+	background:ORANGE;
 	text-shadow: 0 0 5px BLUE, 0 0 20px BLUE, 0 0 20px BLUE;
 }
 .contact
@@ -116,5 +116,29 @@ input[type=password]
   }
 .t
 {
+  font-family: monospace;
+}
+.j
+{
+  color:black;
+  text-shadow:0 0 2px GRAY, 0 0 4px GRAY,0 0 4px GRAY;
+  animation: animate 2s infinite;
+  font-size:30px;
+  font-family: monospace;
+}
+@keyframes animate{
+  0% {color:RED;}
+  25% {color:ORANGE;}
+  50% {color:YELLOW;}
+  75% {color:GREEN;}
+  100% {color:BLUE;}
+
+
+}
+.t
+{
+  color:black;
+  text-shadow:0 0 2px GRAY, 0 0 4px GRAY,0 0 4px GRAY;
+  font-size:15px;
   font-family: monospace;
 }
