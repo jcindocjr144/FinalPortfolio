@@ -142,3 +142,7 @@ input[type=password]
   font-size:12px;
   font-family: monospace;
 }
+.nav-item
+{
+margin-left:2rem;
+}
