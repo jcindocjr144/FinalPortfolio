@@ -91,28 +91,29 @@
 <div class="container d-flex align-items-center justify-content-center" id="contacts">
 <div class="row3 mt-5">
     <h1 class="contact d-flex align-items-center justify-content-center mt-5 mb-2" >CONTACTS</h1>
-    <form >
-  <div class="row d-flex align-items-center justify-content-center text-center text-dark">
-    <label for="email"><b>Email address</b></label>
-    <input type="email" class="col-2 rounded " id="email" required>
-    <label for="password"><b>Password</b></label>
-    <input type="password" class="col-2 rounded " id="password" required>
-    <div class="row-lg"><input type="checkbox" class="bg-warning" onclick="myFunction()"> Show Password</div>
-<script>
-function myFunction() {
-  var x = document.getElementById("password");
-  if (x.type === "password") {
-    x.type = "text";
-  } else {
-    x.type = "password";
-  }
-}
-</script>
+    < <form action="/action_page.php">
+    <div class="row">
+  <div class="col-lg-4"></div>
+  <div class="col-lg-4 text-info mt-5">
+    <input type="text" placeholder="Enter your name"  class="rounded-2 w-100 border border-danger border-3" required>
   </div>
-   <div class="row-sm d-flex align-items-center justify-content-center text-center">
-  <button type="submit" class="pushable btn btn-primary mt-2"><span class="front">Submit </span></button>
-
-</div></div>
+    <div class="col-lg-4"></div></div>
+    <div class="row">
+      <div class="col-lg-4"></div>
+    <div class="col-lg-4 text-info mt-2">
+    <input type="email" placeholder="Enter a valid email address" class="rounded-2 w-100 border border-danger border-3" required>
+  </div>
+  <div class="col-lg-4"></div>
+  </div>
+  <div class="row">
+      <div class="col-lg-4"></div>
+    <div class="col-lg-4 text-info mt-2">
+    <textarea class="w-100 border border-danger border-3" style="height:8rem;"></textarea>
+  </div>
+  <div class="col-lg-4"></div>
+  </div>
+  <div class="d-flex align-items-center justify-content-center">
+  <button type="submit" class="btn btn-warning mb-4 mt-2 border border-danger border-2">Submit</button></div>
 </form>
   </div>
 
